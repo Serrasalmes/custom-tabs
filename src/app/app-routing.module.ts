@@ -5,6 +5,10 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
+  },
+  {
+    path: 'qrscan',
+    loadChildren: () => import('./qrscan/qrscan.module').then( m => m.QrscanPageModule)
   }
 ];
 @NgModule({

@@ -9,10 +9,21 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+//Modalspages
+import { QrscanPageModule } from '../app/qrscan/qrscan.module';
+
+//Component-popover
+import { TransaksiComponent } from '../app/transaksi/transaksi.component';
+
 @NgModule({
-  declarations: [AppComponent],
-  entryComponents: [],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
+  declarations: [AppComponent, TransaksiComponent],
+  entryComponents: [TransaksiComponent],
+  imports: [
+    BrowserModule, 
+    IonicModule.forRoot(), 
+    AppRoutingModule,
+    QrscanPageModule
+  ],
   providers: [
     StatusBar,
     SplashScreen,
