@@ -5,3 +5,9 @@
 ion-tab-bar {
     height: 64px;
 }
+
+ion-fab-button {
+    --background: rgb(0, 76, 218);
+    --box-shadow: 0 0 0 8px #ffffff;
+    margin-bottom: 8px !important;
+}

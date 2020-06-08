@@ -36,8 +36,8 @@ export class TabsPage {
         animated: true,
         showBackdrop: true
     });
-    popover.style.cssText = '--min-width: 180px; --max-width: 200px; margin-top:-30px;';
+    popover.style.cssText = '--min-width: 180px; --max-width: 200px; margin-top:-40px !important;';
     return await popover.present();
-}
+  }
 
 }
