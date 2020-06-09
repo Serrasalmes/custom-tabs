@@ -11,3 +11,19 @@ ion-fab-button {
     --box-shadow: 0 0 0 8px #ffffff;
     margin-bottom: 8px !important;
 }
+
+ion-tab-bar,
+ion-tab-button {
+    background-color: rgb(255, 255, 255);
+}
+
+ion-tab-button:hover {
+    ion-icon, ion-label {
+        color: rgb(0, 76, 218) !important;
+        --ion-color-base: rgb(0, 76, 218) !important;
+    }
+}
+
+ion-tab-button {
+    --color-selected: rgb(156, 156, 156) !important;
+}
