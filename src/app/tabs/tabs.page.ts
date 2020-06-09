@@ -33,6 +33,7 @@ export class TabsPage {
     const popover = await this.popoverController.create({
         component: TransaksiComponent,
         event: ev,
+        mode: "ios",
         animated: true,
         showBackdrop: true
     });
